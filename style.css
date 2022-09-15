@@ -1,0 +1,464 @@
+@font-face {
+   
+   
+    src: url('./fonts/Gilroy-Regular.eot') format('embedded-opentype'),
+         url('./fonts/Gilroy-Regular.woff') format('woff');
+   
+    font-style: normal;
+    font-weight: normal;
+};
+body{
+}
+.container{
+    width: 1340px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.header{
+ background-color: #FAFAFA;
+}
+
+nav{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu__item{
+    
+    padding-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.header__btn{
+    border-radius: 10%;
+color: #F7941E;
+background-color: #FAFAFA;;
+}
+
+.btn__a{
+    color: #F7941E;
+}
+
+
+.midlle{
+display: flex;
+
+background-color: #F1F1F2;
+}
+
+.midlle__left{
+    background-color: #F1F1F2;
+    margin: 0 auto;
+    padding-left: 162px;
+    padding-right: 128px;
+    width: 50%;
+  
+
+}
+
+.midlle__right{
+
+}
+
+.midlle__img{
+   
+    width: 100%;
+}
+
+.midlle__btn{
+    margin-top: 36px;
+    background: #F7941E;
+    color:  #FFFFFF;
+   
+    border-color:#F7941E;
+    padding-top: 23px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.midlle__btn-a{
+    color: #FFFFFF;
+}
+
+.midlle__right{
+   
+    
+}
+
+.midlle__text{
+    font-family: 'Gilroy';
+font-size: 56px;
+line-height: 69px;
+
+color: #000000;
+max-width: 422px;
+}
+
+.midlle__textp{
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 140.62%;
+    color: #000000;
+    max-width: 422px;
+}
+
+.midlle__btn-a{
+   
+}
+
+.midlle__btn-a{
+ text-transform: uppercase;
+}
+
+.midlle__lorem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work__lorem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.work{
+    display: flex;
+  
+   
+}
+.work__right{
+   
+}
+.work__img{
+width: 100%;
+    
+}
+
+.work__left{
+
+ 
+
+}
+
+.work__text{
+    margin-top: 126px;
+    font-family: 'Gilroy';
+font-size: 32px;
+line-height: 140.62%;
+/* identical to box height, or 45px */
+
+
+color: #000000;
+
+}
+
+.work__textp{
+ max-width: 440px;   
+font-family: 'Gilroy';
+font-size: 20px;
+line-height: 140.62%;
+/* or 28px */
+
+text-align: justify;
+
+color: #000000;
+}
+
+.work__btn{
+    border-radius: 10%;
+   border: 1px solid #F7941E;
+    background-color: #FAFAFA;
+    padding: 21px 47px 14px 27px;
+
+
+}
+
+.work__btn-a{
+color:#F7941E
+}
+
+
+.cards__items{
+    display: flex;
+   justify-content: space-between;
+    max-width: 1200px;
+  
+}
+
+.cards__item{
+    background: #FAFAFA;
+    max-width: 270px;
+    min-height: 270px;
+    box-shadow: 10px 10px 10px #F1F1F2;
+}
+
+.cards__item-one{
+    box-shadow: 10px 10px 10px #F1F1F2; 
+}
+
+
+
+.cards__title-first{
+    text-align: center;
+}
+
+.cards__title-two{
+text-align: center;
+}
+
+
+.orange{
+    background-color: #F7941E;
+    
+    margin-top: 140px;
+   
+    }
+    
+    .orange__inner{
+        display: flex;
+     justify-content: space-between;
+        padding: 81px 235px;
+
+
+    }
+
+    .orange__text{
+padding-right: 20px;
+    }
+
+    .orange__button{
+align-items: center;
+padding-top: 96px;
+   
+}
+
+    .orange__btn{
+      background-color: #000000;
+      padding: 10px 10px 10px 10px;
+      border-radius: 5px;
+      margin-right: 15px;
+      box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+    }
+
+    .orange__btn-word{
+        color: #FFFFFF;
+    }
+
+    .orange__btn-two{
+       background-color:  #F7941E;
+        border-radius: 5px;
+        padding: 10px 10px 10px 10px;
+     
+    }
+
+    .orange__l{
+        font-family: 'Gilroy';
+font-size: 32px;
+line-height: 140.62%;
+/* identical to box height, or 45px */
+
+
+color: #000000;
+    }
+
+    .orange__lorem{
+        font-family: 'Gilroy';
+font-size: 32px;
+line-height: 140.62%;
+/* identical to box height, or 45px */
+
+
+color: #000000;
+    }
+
+
+
+    .way__inner{
+       max-width: 1140px;
+        margin-top: 88px;
+        margin: 0 auto;
+    }
+
+    .block{
+      display: flex;
+        background-color: #000000;
+      margin-top: 60px;
+      align-items: center;
+    }
+
+    .block__photo{
+        max-width: 400px;
+    }
+
+   
+
+    .black{
+       margin: 0 80px;
+        max-width: 400px;
+    }
+
+    
+
+    .way__title{
+        font-family: 'Gilroy';
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+    }
+
+    .way__text{
+        
+font-family: 'Gilroy';
+font-size: 18px;
+line-height: 135.94%;
+/* identical to box height, or 24px */
+
+text-align: center;
+
+color: #000000;
+
+    }
+
+    .black__text{
+        font-family: 'Gilroy';
+font-size: 14px;
+line-height: 140.62%;
+/* identical to box height, or 20px */
+
+
+color: #FFFFFF;
+
+    }
+
+    .black__text-one{
+        font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
+    }
+
+    .black__text-second{
+        font-family: 'Gilroy';
+font-size: 18px;
+line-height: 140.62%;
+/* identical to box height, or 25px */
+
+
+color: #FFFFFF;
+
+
+    }
+
+    .way__info{
+       display: flex;
+       justify-content: space-between;
+       margin: 40px 0;
+    }
+    
+
+    .way__info-left{
+        width: 570px;
+        padding: 50px;
+    }
+
+    .way__info-left:hover{
+        box-shadow: 10px 10px 10px #FAFAFA;
+    }
+
+    .way__info-text{
+        font-family: 'Gilroy';
+        font-size: 24px;
+        line-height: 140.62%;
+        color: #000000;
+max-width: 474px;
+font-weight: bold;
+/* or 34px */
+
+
+color: #000000;
+    }
+
+
+    .way__info-lorem{
+        
+font-family: 'Gilroy';
+font-size: 18px;
+line-height: 140.62%;
+max-width: 474px;
+/* or 25px */
+
+
+color: #000000;
+
+    }
+
+.way__info-f{
+    font-family: 'Gilroy';
+font-size: 14px;
+line-height: 140.62%;
+/* identical to box height, or 20px */
+
+
+color: #000000;
+}
+   
+
+footer{
+    background-color:  #FAFAFA;
+    padding: 106px 0 35px;
+    
+
+}
+
+footer li{
+    list-style: none;
+    padding: 0 25px;
+}
+
+.nav__footer{
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid #000000;
+}
+
+.icons{
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.footer__copy{
+text-align: center;
+margin-top: 70px;
+font-size: 14px
+;
+}
